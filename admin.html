@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Admin - Library</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Admin</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="catalog.html">Book Catalog</a>
+      <a href="admin.html">Admin</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Add Book</h2>
+      <form id="addForm">
+        <label>ID: <input type="number" id="bookId" required></label><br>
+        <label>Title: <input type="text" id="bookTitle" required></label><br>
+        <label>Author: <input type="text" id="bookAuthor" required></label><br>
+        <button type="submit">Add Book</button>
+      </form>
+    </section>
+    <section>
+      <h2>Delete Book</h2>
+      <form id="deleteForm">
+        <label>ID: <input type="number" id="delId" required></label>
+        <button type="submit">Delete</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

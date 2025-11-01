@@ -1,0 +1,14 @@
+[
+  {
+    "id": 101,
+    "title": "Data Structures in C++",
+    "author": "John Smith",
+    "issued": false
+  },
+  {
+    "id": 102,
+    "title": "Algorithms Unlocked",
+    "author": "Jane Doe",
+    "issued": true
+  }
+]
